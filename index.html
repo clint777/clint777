@@ -10,7 +10,28 @@
         padding: 25px;
         background-color: black;
         color: white;
+        font-size: 25px;
       }
+      .dark-mode {
+        background-color: white;
+        color: black;
+        
+      }
+    </style>
+  </head>
+  <body>
+   
+    <div>
+      <button onclick="darkMode()">Darkmode</button>
+    </div>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
+</html>
     </script>
   </body>
 </html>
